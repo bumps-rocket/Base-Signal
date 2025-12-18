@@ -44,6 +44,11 @@ No transactions are sent. All operations are read-only.
 
 - app.base-signal.ts  
   Browser-based script that validates Base connectivity and onchain state.
+  
+- contracts/  
+  Solidity contracts deployed to Base Sepolia for testnet validation:
+  - control.sol — minimal contract used to validate deployment and verification flow  
+  - storage.sol — simple stateful contract for interaction testing  
 
 - package.json  
   Dependency manifest including Coinbase SDKs and multiple repositories from the Base GitHub organization.
